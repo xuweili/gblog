@@ -1,2 +1,0 @@
-# gblog
-Venior's blog. 
