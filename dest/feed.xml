@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>PuGo - Static Site Generator</title><link>http://xuweili.cn</link><description>PuGo is a Simple Static Site Generator</description><lastBuildDate>Thu, 18 Feb 2016 07:10:47 -0500</lastBuildDate><item><title>2016-02-18-06-57</title><link>http://xuweili.cn/2016/2/18/2016-02-18-06-57.html</link><pubDate>Thu, 18 Feb 2016 06:57:00 +0000</pubDate><category>post</category><description><![CDATA[ <p>write your post content here</p>
+ ]]></description></item><item><title>Welcome</title><link>http://xuweili.cn/2015/12/20/welcome.html</link><pubDate>Sun, 20 Dec 2015 12:20:20 +0000</pubDate><category>pugo</category><description><![CDATA[ <p>When you read the blog, <code>PuGo</code> is running successfully. Then enjoy your blog journey.</p>
+
+<p>This blog is generated from file <code>source/welcome.md</code>. You can learn it and try to write your own blog article with following guide together.</p>
+
+<h4>blog meta</h4>
+
+<p>Blog&rsquo;s meta data, such as title, author, are created by first <code>ini</code> section with block <strong>```ini &hellip;.. ```</strong>:</p>
+<pre><code class="language-ini">; post title, required
+title = Welcome
+
+; post slug, use to build permalink and url, required
+slug = welcome
+
+; post created time, support
+; 2015-11-28, 2015-11-28 12:28, 2015-11-28 12:28:38
+date = 2015-11-28 11:28
+
+; post updated time, optional
+; if null, use created time
+update_date = 2015-11-28 12:28
+
+; post description, show in header meta
+desc = welcome to try pugo.static site generator
+
+; author identifier, reference to meta.md [author.pugo], required
+author = pugo-robot
+
+; tags, optional
+tags = pugo,welcome
+</code></pre>
+
+<h4>blog content</h4>
+
+<p>Content are from the second section as <code>markdown</code> format:</p>
+<pre><code class="language-markdown">When you read the blog, `pugo` is running successfully. Then enjoy your blog journey.
+
+This blog is generated from file `source/welcome.md`. You can learn it and try to write your own blog article with following guide together.
+
+...... (markdown content)
+</code></pre>
+
+<p>Just write content after blog meta, all words will be parsed as markdown content.</p>
+ ]]></description></item></channel></rss>
