@@ -1,5 +1,5 @@
 ```ini
-title = About PuGo
+title = About Me
 slug = about
 desc = some words about pugo
 date = 2015-12-24
